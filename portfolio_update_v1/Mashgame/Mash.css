@@ -1,0 +1,148 @@
+body {
+  font-family: Helvetica, Arial;
+  font-size: 27px;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 40px 10px;
+  line-height: 1.65em;
+  background: #FD6A6E;
+  color: #fff;
+  font-weight: 300;
+}
+
+.logo{
+  width: 100%;
+}
+
+.logo img {
+  margin: 0 auto;
+  display: block;
+}
+
+.description {
+  margin: 80px auto 40px;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: -80px;
+}
+
+.bucket {
+  width: 100%;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  display: inline-block;
+}
+
+.choice-bucket {
+  width: 30.333333%;
+  float: left;
+  display: inline-block;
+  margin-left: 100px;
+  padding: inherit;
+  margin-bottom: -20px;
+}
+
+.choice-bucket input {
+    font-size: 18px;
+    margin: 15px 4%;
+    padding: 16px 0;
+    width: 92%;
+    color: #BB475C;
+    border-radius: 6px;
+    border: 0;
+    outline: 0;
+    text-indent: 20px;
+}
+
+.highlight {
+  font-size: 18px;
+  margin-left: 30px;
+  opacity: .8;
+  line-height: 24px;
+}
+
+#answers {
+    /* opacity: 0; */
+    margin: auto 0px;
+    background: #fff;
+    border-radius: 6px;
+    color: #BB475C;
+    transition: 1s linear;
+    overflow: hidden; /* add this */
+}
+
+#answers p {
+  max-width: 760px;
+  margin: auto;
+  padding: 80px 0;
+}
+
+#answers p span {
+  font-weight: bold;
+}
+
+form input[type=submit] {
+    background: #B5D269;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    padding: 1em 2em;
+    cursor: pointer;
+    margin: 0 auto 60px;
+    display: block;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.hide {
+  opacity: 0;
+  height: 0;
+  
+}
+
+.show {
+  opacity: 1;
+  height: 100%;
+}
+
+
+#mash{
+  margin-top: -100px;
+}
+
+#button{
+  margin-bottom: 0px;
+  padding-left
+}
+
+#myBtn{
+      background: #C70039;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    padding: 1em em;
+    cursor: pointer;
+    margin-left: 23.2em;
+    margin-top: 0.5em;
+    display: block;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+
+}
+
+#refresh{
+      background: #B5D269;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    padding: 1em em;
+    cursor: pointer;
+    margin-left: 22em;
+    display: block;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+
+}

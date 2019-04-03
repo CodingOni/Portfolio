@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=0.5, minimal-ui">
+
+  <title>Futuristic MASH</title>
+  <link href="mashnm.css" rel="stylesheet">
+  <link href="mash.css" rel="stylesheet">
+</head>
+<body>
+
+  <h1 class="logo"></h1>
+  <p class="description">Fill in the blanks and your future will be foretold.
+<button onclick="refresh()" id="refresh" title="Refresh">Try Again</button>
+  </p>
+
+<form action="" method="post" id="mash">
+
+  <div id="answers" class="hide">
+      <p>Your home is in <span id="location"></span>, with an <span id="pet"></span>. You  are a <span id="profession"></span> who owns a <span id="home"></span> and enjoys
+        <span id="hobies"></span>.
+  </div>
+
+  <div class="bucket">
+
+    <div class="choice-bucket">
+      <h4 class="highlight">Place you will live?</h4>
+        <input name="location[]" type="text">
+        <input name="location[]" type="text">
+        <input name="location[]" type="text">
+        <input name="location[]" type="text">
+      </div>
+
+      <div class="choice-bucket">
+        <h4 class="highlight">Your future profession?</h4>
+          <input name="profession[]" type="text">
+          <input name="profession[]" type="text">
+          <input name="profession[]" type="text">
+          <input name="profession[]" type="text">
+      </div>
+
+     <div class="choice-bucket">
+        <h4 class="highlight">What's your future pet?</h4>
+          <input name="pet[]" type="text">
+          <input name="pet[]" type="text">
+          <input name="pet[]" type="text">
+          <input name="pet[]" type="text">
+      </div>
+
+           <div class="choice-bucket">
+        <h4 class="highlight">What are your Hobies</h4>
+          <input name="hobies[]" type="text">
+          <input name="hobies[]" type="text">
+          <input name="hobies[]" type="text">
+          <input name="hobies[]" type="text">
+      </div>
+
+  </div>
+
+  <input onclick="topFunction(), scrollFunction()" id="button" type="submit" value="Tell my fortune">
+</form>
+<footer>
+
+  <button onclick="topFunction(), scrollFunction()" id="myBtn" title="Go to top">Top</button>
+
+</footer>
+<script src="./Mash.js"></script>
+</body>
+</html>

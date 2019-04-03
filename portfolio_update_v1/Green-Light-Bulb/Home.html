@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel= "stylesheet" href="greenlightbulb.css">
+<title class="bg"> The Green Light Bulb </title>
+    
+  </head>
+
+   <body> 
+<h1 class="TopHead" >The green light bulb</h1>
+<!-Heading->
+<div class="nav">
+  
+    
+     <!-DropDown->
+     <div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">New Products</a>
+       <a href="#news">Most Popular</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Categories
+      
+    
+        
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="#">Clothing</a>
+      <a href="#">Gadgets</a>
+      <a href="#">Link 3</a>
+       
+    </div>
+  </div> 
+</div>
+     <div class="search">
+       <input type="text" placeholder="Search..">
+  </div>
+  <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+  <!-Menu->
+  
+  </div>
+<!- Heading ->    
+<h3 id="Oheading">See plants become used in every day life</h3>
+  
+<section>
+<p id="about" >Perhaps far exposed age effects. Now distrusts you her delivered applauded affection out sincerity. As tolerably recommend shameless unfeeling he objection consisted. She although cheerful perceive screened throwing met not eat distance. Viewing hastily or written dearest elderly up weather it as. So direction so sweetness or extremity at daughters. Provided put unpacked now but bringing. 
+
+Is at purse tried jokes china ready decay an. Small its shy way had woody downs power. To denoting admitted speaking learning my exercise so in. Procured shutters mr it feelings. To or three offer house begin taken am at. As dissuade cheerful overcame so of friendly he indulged unpacked. Alteration connection to so as collecting me. Difficult in delivered extensive at direction allowance. Alteration put use diminution can considered sentiments interested discretion. An seeing feebly stairs am branch income me unable. 
+ </p>
+  
+     </section>
+  </body>
+    
+  
+    <footer>
+     <ol>
+<li><a href="url">Home</a> </li>
+<li><a href="url">New Products</a></li>
+<li><a href="url">Top Invested Items</a></li>
+<li><a href="url">Learn More</a></li>
+      </ol>
+<h2>  
+<a href="url"> Contact</a> </h2>
+      <p>&copy;2017 DaUi,collective</p>
+    </footer>
+
+</html>
